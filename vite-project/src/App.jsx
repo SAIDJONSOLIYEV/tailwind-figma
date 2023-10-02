@@ -5,9 +5,11 @@ import Footer from "./components/Footer";
 const App = () => {
     return (
         <React.Fragment>
-            <Header />
-            <Body />
-            <Footer />
+            <div className="max-w-[1440px] mx-auto">
+                <Header />
+                <Body />
+                {/* <Footer /> */}
+            </div>
         </React.Fragment>
     );
 }
