@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { Cricle1, Cricle2, Cricle3, Ico } from "../helpers/helpers";
 const Body = () => {
     return (
         <main className=" font-my_Popins">

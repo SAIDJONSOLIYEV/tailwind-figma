@@ -1,16 +1,15 @@
-import { Cricle1, Cricle2, Cricle3, Ico, Logo } from "./helpers/helpers";
-// import mail from "./assets/images/mail.png"
+import React from "react";
+import Header from "./components/Header";
+import Body from "./components/Body";
+import Footer from "./components/Footer";
 const App = () => {
     return (
-      <>
-      {/* header */}
-  
-
-{/* main */}
-
-       
-      </>
-    ); 
+        <React.Fragment>
+            <Header />
+            <Body />
+            <Footer />
+        </React.Fragment>
+    );
 }
 
 export default App;

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Logo } from '../helpers/helpers'
 
 const Footer = () => {
     return (
